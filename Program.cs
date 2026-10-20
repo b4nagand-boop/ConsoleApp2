@@ -1,9 +1,9 @@
-﻿// HashSet<string> halmaz = new() { "A", "B", "C" };
-// halmaz.Add("D");
-// bool bennevan = halmaz.Contains("DD");
-// foreach (string item in halmaz) {
-//     Console.WriteLine(item);
-// }
+﻿HashSet<string> halmaz = new() { "A", "B", "C" };
+halmaz.Add("D");
+bool bennevan = halmaz.Contains("DD");
+foreach (string item in halmaz) {
+    Console.WriteLine(item);
+}
 
 Dictionary<int, string> szotar = new();
 szotar[55] = "Usain Bolt";
