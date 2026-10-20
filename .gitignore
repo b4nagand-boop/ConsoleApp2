@@ -1,0 +1,28 @@
+## Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+
+## Visual Studio user files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## IDE-local settings
+.vs/
+.vscode/
+
+## NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Test results
+TestResults/
+*.trx
+
+## Logs
+*.log
